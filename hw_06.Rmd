@@ -70,7 +70,7 @@ Vel finibus eu ut litora a etiam quam sit tempus class. Congue sit tempor felis.
 
 \begin{gather}
   y_t = a + bx_{t-1} + e_t \\
-  e_t =\sim \text{N}(0, \sigma^2) 
+  e_t ~\sim \text{N}(0, \sigma^2) 
 \end{gather}
 
 Neque a quis primis in, sapien a, montes condimentum parturient. Volutpat vel, nisl fames erat nisl varius eleifend elementum ac. Nec luctus ut vulputate nullam et mauris. In fermentum praesent vestibulum proin molestie elementum. In eros gravida felis donec ut egestas torquent turpis orci in.
@@ -80,7 +80,7 @@ Neque a quis primis in, sapien a, montes condimentum parturient. Volutpat vel, n
 Ipsum malesuada odio nulla varius ut erat. Fermentum nam per ullamcorper tempus ac. Pellentesque, aliquam, diam morbi in, in nisi. Non, maximus sed in aliquam, elementum quis tincidunt. Leo eget consequat dapibus proin augue sollicitudin. Sodales porta nec morbi congue enim. Eget auctor sed, leo venenatis. In est tincidunt nullam. Pellentesque, auctor nulla efficitur tristique blandit. 
 
 \begin{equation}
-  \text{AIC} = 2\text{NLL} + 2\text{p}
+  \text{AIC} = 2\text{NLL} + 2p
 \end{equation}
 
 Quam faucibus mattis tempus, eleifend sed a nisl mi nunc vivamus. Augue suspendisse sed auctor eu tempor justo maecenas vestibulum habitant maecenas sed. In sed, sed augue, ligula euismod, ad congue ad velit in, tincidunt. Dictum nec turpis sed senectus, non, donec potenti magna in conubia blandit. Congue sed pulvinar sed ligula ultrices malesuada ultrices id venenatis, vestibulum sed.
