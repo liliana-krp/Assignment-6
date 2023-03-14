@@ -63,6 +63,7 @@ Nisi sagittis. Pulvinar vel eu in maecenas vitae non, dolor. At integer arcu bib
   \text{cor}(y_{t}, x_{t-h})
 \end{equation}
 ```
+
 Class pulvinar quis dolor et neque. Tempus primis sed, urna, egestas. Massa laoreet feugiat mauris dignissim aliquam luctus.
 
 ### Linear models
@@ -75,6 +76,7 @@ Vel finibus eu ut litora a etiam quam sit tempus class. Congue sit tempor felis.
   e_t ~\sim \text{N}(0, \sigma^2) 
 \end{gather}
 ```
+
 Neque a quis primis in, sapien a, montes condimentum parturient. Volutpat vel, nisl fames erat nisl varius eleifend elementum ac. Nec luctus ut vulputate nullam et mauris. In fermentum praesent vestibulum proin molestie elementum. In eros gravida felis donec ut egestas torquent turpis orci in.
 
 ### Model selection
@@ -86,6 +88,7 @@ Ipsum malesuada odio nulla varius ut erat. Fermentum nam per ullamcorper tempus 
   \text{AIC} = 2\text{NLL} + 2p
 \end{equation}
 ```
+
 Quam faucibus mattis tempus, eleifend sed a nisl mi nunc vivamus. Augue suspendisse sed auctor eu tempor justo maecenas vestibulum habitant maecenas sed. In sed, sed augue, ligula euismod, ad congue ad velit in, tincidunt. Dictum nec turpis sed senectus, non, donec potenti magna in conubia blandit. Congue sed pulvinar sed ligula ultrices malesuada ultrices id venenatis, vestibulum sed.
 
 # Results
@@ -130,6 +133,5 @@ Viverra urna in arcu ut, bibendum, at. Eu placerat sociis mauris, elementum risu
 
 Maecenas molestie pellentesque felis mauris nisl viverra sapien, in inceptos imperdiet mi aliquam ultrices. Ante sit. Erat eget sed tempus curabitur viverra cum lacus? Tellus ac porttitor mi eleifend lacus lacinia duis ut dictumst. Leo nisi purus lobortis ullamcorper tempor in. Varius eu nulla, suspendisse eget, vel. Convallis hac. Faucibus praesent cum nisl vitae morbi ipsum neque. Sem in mi, primis fusce ac magna elementum sociosqu ante. Orci pellentesque donec amet sed sed libero magnis in malesuada odio vulputate elementum, sem. Sociis sed a porttitor blandit nec nec ridiculus sollicitudin? Dictumst facilisis nisi ac lobortis est montes dolor cum nec. Natoque, hendrerit adipiscing iaculis, lacinia risus purus, congue lorem. Pretium mus nam per tempus metus volutpat et habitant.
 
-# References
-write.bibtex(file = "references.bib") 
-# I can not figure out how to hide the above line when I include it in a chunk; hence, this is the closest I could get despite getting stuck on refs + header/footer formatting - but was worth the learning experience :) ! hope I got close...
+# References 
+write.bibtex(file = "references.bib")
