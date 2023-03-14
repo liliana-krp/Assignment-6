@@ -20,9 +20,20 @@ geometry:
 - right=1in
 linestretch: 1.5
 fontsize: 12pt
-
+csl: "ecology.csl"
 ---
 
+``` {r setup}
+## load the package
+library("knitcitations")
+
+## clear out any cached refs
+cleanbib()
+
+## set pandoc for formatting
+options("citation_format" = "pandoc")
+
+```
 
 # Abstract
 
@@ -113,11 +124,11 @@ Sed pulvinar lobortis sapien lacus porttitor. At nisl orci, molestie elementum. 
 
 # Discusssion
 
-Molestie erat himenaeos purus, sit. In mollis cursus velit, cursus fames leo cursus vel, nisl rhoncus blandit. Tempus iaculis sed nec faucibus aliquet nisl sed pretium posuere. Ut felis euismod, dapibus, mattis metus cras ullamcorper odio. Gravida sapien, vulputate sit orci turpis nulla. Metus suspendisse platea lectus dolor adipiscing venenatis tortor? Morbi vestibulum enim phasellus et ornare lobortis nostra quam cum, ullamcorper. Sodales, ut, lorem justo facilisi nostra in.
+Molestie erat himenaeos purus, sit. In mollis cursus velit, cursus fames leo cursus vel, nisl rhoncus blandit. Tempus iaculis sed nec faucibus aliquet nisl sed pretium posuere. Ut felis euismod, dapibus, mattis metus cras ullamcorper odio. Gravida sapien, vulputate sit orci turpis nulla. Metus suspendisse platea lectus dolor adipiscing venenatis tortor? Morbi vestibulum enim phasellus et ornare lobortis nostra quam cum, ullamcorper. Sodales, ut, lorem justo facilisi nostra in `r citep("10.1080/00031305.2017.1375989")`.
 
 Ipsum malesuada odio nulla varius ut erat. Fermentum nam per ullamcorper tempus ac. Pellentesque, aliquam, diam morbi in, in nisi. Non, maximus sed in aliquam, elementum quis tincidunt. Leo eget consequat dapibus proin augue sollicitudin. Sodales porta nec morbi congue enim. Eget auctor sed, leo venenatis. In est tincidunt nullam. Pellentesque, auctor nulla efficitur tristique blandit. Quam faucibus mattis tempus, eleifend sed a nisl mi nunc vivamus. Augue suspendisse sed auctor eu tempor justo maecenas vestibulum habitant maecenas sed. In sed, sed augue, ligula euismod, ad congue ad velit in, tincidunt. Dictum nec turpis sed senectus, non, donec potenti magna in conubia blandit. Congue sed pulvinar sed ligula ultrices malesuada ultrices id venenatis, vestibulum sed.
 
-Purus, ac at pellentesque sem cum fusce platea. Nec purus tempus integer sociosqu mi erat felis hac turpis. Rhoncus tristique eu. Diam himenaeos montes ut, cursus feugiat, eget eget ac. Dignissim sit egestas, nec praesent nec eleifend in viverra et quis faucibus, felis ut. Tincidunt quis proin dolor lacinia ut duis leo. Elit sed, non velit vitae tortor.
+Purus, ac at pellentesque sem cum fusce platea. Nec purus tempus integer sociosqu mi erat felis hac turpis. Rhoncus tristique eu. Diam himenaeos montes ut, cursus feugiat, eget eget ac. Dignissim sit egestas, nec praesent nec eleifend in viverra et quis faucibus, felis ut. Tincidunt quis proin dolor lacinia ut duis leo. Elit sed, non velit vitae tortor `r citep("10.1080/00031305.2017.1375989")`.
 
 Tristique, at et tempus, pellentesque conubia et nisl etiam orci nam. Dictum ipsum volutpat eget nunc! A orci eget scelerisque, laoreet. Nec faucibus urna lacus in bibendum. Dolor nam ultricies et ut mi duis nec. Vivamus odio quis sit magnis sed maecenas nibh fusce porttitor dignissim. Malesuada donec quis aliquam arcu blandit felis luctus integer. Quam sed purus ac neque sem lacinia ac, sed. Ac luctus phasellus justo tempor. Facilisi non. Hendrerit, ut augue, vel aliquam arcu et sed natoque in, ipsum fermentum. Et nostra quisque.
 
@@ -128,4 +139,3 @@ Viverra urna in arcu ut, bibendum, at. Eu placerat sociis mauris, elementum risu
 Maecenas molestie pellentesque felis mauris nisl viverra sapien, in inceptos imperdiet mi aliquam ultrices. Ante sit. Erat eget sed tempus curabitur viverra cum lacus? Tellus ac porttitor mi eleifend lacus lacinia duis ut dictumst. Leo nisi purus lobortis ullamcorper tempor in. Varius eu nulla, suspendisse eget, vel. Convallis hac. Faucibus praesent cum nisl vitae morbi ipsum neque. Sem in mi, primis fusce ac magna elementum sociosqu ante. Orci pellentesque donec amet sed sed libero magnis in malesuada odio vulputate elementum, sem. Sociis sed a porttitor blandit nec nec ridiculus sollicitudin? Dictumst facilisis nisi ac lobortis est montes dolor cum nec. Natoque, hendrerit adipiscing iaculis, lacinia risus purus, congue lorem. Pretium mus nam per tempus metus volutpat et habitant.
 
 # References
-
