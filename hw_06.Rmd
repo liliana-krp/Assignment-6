@@ -134,4 +134,3 @@ Viverra urna in arcu ut, bibendum, at. Eu placerat sociis mauris, elementum risu
 Maecenas molestie pellentesque felis mauris nisl viverra sapien, in inceptos imperdiet mi aliquam ultrices. Ante sit. Erat eget sed tempus curabitur viverra cum lacus? Tellus ac porttitor mi eleifend lacus lacinia duis ut dictumst. Leo nisi purus lobortis ullamcorper tempor in. Varius eu nulla, suspendisse eget, vel. Convallis hac. Faucibus praesent cum nisl vitae morbi ipsum neque. Sem in mi, primis fusce ac magna elementum sociosqu ante. Orci pellentesque donec amet sed sed libero magnis in malesuada odio vulputate elementum, sem. Sociis sed a porttitor blandit nec nec ridiculus sollicitudin? Dictumst facilisis nisi ac lobortis est montes dolor cum nec. Natoque, hendrerit adipiscing iaculis, lacinia risus purus, congue lorem. Pretium mus nam per tempus metus volutpat et habitant.
 
 # References 
-write.bibtex(file = "references.bib")
